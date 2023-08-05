@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    position:sticky;
+    z-index: 2;
+    background-color: white;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:-5px;
+}
+
+.navigation-logo{
+    margin:25px;
+    align-items: center;
+    background-image: url("nav-logo.svg");
+    height: 40px;
+    width: 105px;
+}
+
+.navigation-center-icon{
+    align-items: center;
+    display: flex;
+    
+}
+
+
+.navigation-center-icon-links{
+    padding: 15px;
+    font-size:15px;
+    font-weight: 600;
+    
+}
+.navigation-center-icon-links:hover{
+    padding: 15px;
+    font-size:15px;
+    font-weight: 600;
+    background-color: pink;
+    color: white;
+    
+}
+.navigation-center-icon-links:active{
+    padding: 15px;
+    font-size:15px;
+    font-weight: 600;
+    background-color: pink;
+    color: rgb(0, 0, 0);
+    
+}
+
+.nav-search-icon{
+
+    border-radius: 50% ;
+    padding:10px 12px;
+    background-color: pink;
+}
+
+.nav-search-icon:hover{
+    border-radius: 50% ;
+    padding: 10px 12px;
+    background-color: pink;
+}
+
+.nav-search-icon:active{
+    border-radius: 50% ;
+    padding: 10px 12px;
+    background-color: rgb(211, 22, 53);
+}
+.guest-icon{
+    color: gray;
+}
+
+.navigation-last-icon{
+    text-align: center;
+    display: flex;
+    margin-right: 40px;
+}
+
+.navigation-last-icon-links{
+    padding: 15px;
+}
+
+.navigation-last-icon-links:hover{
+    padding: 15px;
+    background-color: pink;
+    color: rgb(255, 255, 255);
+}
+
+.navigation-last-icon-links:active{
+    padding: 15px;
+    background-color: pink;
+    color: rgb(0, 0, 0);
+}
+
+.nav-2{
+    position:sticky;
+    z-index: 1;
+    background-color: white;
+    top:60px;
+
+}
+.filds{
+    padding-top:50px ;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+.filds-align{
+    position: relative;
+    align-items: center;
+}
+
+
+.filds-icon-names::after{
+    content:"";
+    position: absolute;
+    bottom: 1px;
+    left:0;
+    width:100%;
+    height: 3px;
+    background-color: yellow;
+    border-radius: 40px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition-timing-function:ease;
+    
+    
+
+}
+
+.filds-icon-names:hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
+    transition-duration: .5s;
+    
+    
+}
+
+
+.filds-icon{
+    height: 20px;
+    width: 20px;
+    margin: 0px 40px;
+}
+
+.filds-icon:hover{
+    height: 20px;
+    width: 20px;
+    margin: 0px 40px;
+    
+}
+
+.filds-icon-name-con{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.filds-icon-names{
+    font-size: 11px;
+    text-align: center;
+    height: 28px;
+    width: auto;
+    margin: 0px 10px;
+}
+
+.arro-class{
+    height: 13px;
+    width: 13px;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+
+.filter{
+    gap: 4px;
+    width: 90px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+
+}
+
+.filter-sign{
+    height: 13px;
+    width: 13px;
+}
+
+.filter-name{
+    font-size: 20px;
+}
+.container{
+    padding-top: 25px;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 5px;
+}
+
+.image-1{
+    height:310px;
+    width:320px;
+    border-radius: 10px;
+}
+
+.first-img{
+    margin-top: 30px;
+    position: relative;
+
+}
+
+.add-icon{
+    position: absolute;
+    height: 30px;
+    width: 30px ;
+    top: 10px;
+    right: 10px;
+}
+
+.info{
+    margin-left: 5px;
+}
+
+.first-line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add-rating{
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+.star{
+    margin-right: 5px;
+    height: 15px;
+    width: 15px;
+}
+
+.heading{
+    font-size: 15px;
+    font-weight: 750;
+}
+
+.paragraph{
+    margin: 5px 0px;
+    color: gray;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.prize-night{
+    font-size: 15px;
+    font-weight: 750;
+}
+
+.light-f{
+    color: rgb(21, 22, 22);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
